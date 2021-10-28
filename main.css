@@ -1,5 +1,6 @@
 .header-block {
-    background-color: #3b000f;
+    background: rgb(112,0,31);
+    background: linear-gradient(90deg, rgba(112,0,31,1) 0%, rgba(21,105,122,1) 100%);
     color: #ffffff;
 
     margin-top: 20px;
@@ -30,6 +31,7 @@
 
 .headshot {
     width: 200px;
+    border-radius: 25px;
 }
 
 .body-text {
