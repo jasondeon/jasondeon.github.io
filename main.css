@@ -34,6 +34,14 @@
     border-radius: 25px;
 }
 
+.pix {
+    width: 200px;
+}
+
+.audio{
+    padding: 20px;
+}
+
 .body-text {
     margin-top: 20px;
     margin-bottom: 20px;
