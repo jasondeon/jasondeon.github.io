@@ -1,6 +1,6 @@
 .header-block {
-    background: rgb(112,0,31);
-    background: linear-gradient(90deg, rgba(112,0,31,1) 0%, rgba(21,105,122,1) 100%);
+    background: #3E3E3E;
+    background: linear-gradient(90deg, #3E3E3E 0%, #232323 100%);
     color: #ffffff;
 
     margin-top: 20px;
@@ -41,6 +41,12 @@
 .audio{
     padding: 20px;
 }
+
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #B9B9B9;
+     color: #000;
+     }
 
 .imgContainer{
     float:left;
