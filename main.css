@@ -42,6 +42,10 @@
     padding: 20px;
 }
 
+.imgContainer{
+    float:left;
+}
+
 .body-text {
     margin-top: 20px;
     margin-bottom: 20px;
