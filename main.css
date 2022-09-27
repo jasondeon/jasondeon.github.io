@@ -1,12 +1,9 @@
 .header-block {
-    background: #3E3E3E;
     background: linear-gradient(90deg, #3E3E3E 0%, #232323 100%);
     color: #ffffff;
-
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 30px;    
-    /*min-height: 120px;*/
+    padding: 5px;    
 }
 
 .header-block a {
@@ -16,11 +13,9 @@
 
 .header-title {
     margin-top: 20px;
-    /*padding: 20px;    */
 }
 
 .header-links {
-    /*text-align: center;*/
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -31,7 +26,7 @@
 
 .headshot {
     width: 200px;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .pix {
@@ -74,4 +69,21 @@ audio::-webkit-media-controls-play-button,
 .paragraph a, .reference a {
     color: #425469;
     font-weight: bold;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(90deg, #3E3E3E 0%, #232323 100%);
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 25px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
 }
